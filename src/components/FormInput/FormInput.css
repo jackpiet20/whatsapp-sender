@@ -1,0 +1,41 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.title {
+    margin-bottom: 15px;
+}
+
+.input-number {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    margin: 1rem 0;
+    height: 2rem;
+}
+
+.input-number select {
+    width: 30%;
+}
+
+.input-number input {
+    width: 70%;
+}
+
+.input-message {
+    height: 2rem;
+    display: flex;
+}
+
+.input-message > input {
+    width: 100%;
+}
+
+.input-submit {
+    margin-top: 2rem;
+}
